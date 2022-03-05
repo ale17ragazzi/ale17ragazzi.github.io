@@ -1,0 +1,109 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Cyber Security</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+
+				</div>
+			</header>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2>.PCAP Analysis</h2>
+						</header>
+						<a href="images/download.jpg" class="image fit thumb"><img src="images/wireshark.png" alt="" /></a>
+						<h2>Wireshark Forensic</h2>
+						<p><b>In a scenario where our machine has been hacked by an anonymous threat actor, I have been 
+                            given a .pcap file to analyse in order to determinate what happenend. To do so, I’ve made use
+                            of wireshark, a famous network protocol analyzer. The vulnerable machine and the .pcap file are 
+                            provided by the THM learning platform. I’ve run the wireshark software on a Kali OS using a virtual 
+                            machine, VM Workstation 16, hosted my own machine. I could connect to the THM networn via OpenVPN.
+                            In the second part of the exercise I’ve hacked my way back to the exploited machine, I performed a
+                            privilege escalation and eventually I captured a Flag hidden in the fie system.
+
+					
+						</b></p>
+						<h2>Outcome</h2>
+						<p><b>This is one of a series of exercises and studies I have conducted to expand my knowledge in cyber 
+                            security defence and incident response. At the end of the exercise I was able to read and analyze a simple 
+                            .pcap file, I have a good understaning of the different traffic, protocols, the multilayer data structure 
+                            and the informations that is possible to retrieve by them. I’m able to navigate and utilize some of the
+                             basic wireshark tools and modules like filters, basic packet dissection, vilsualize TCP and UDP streams etc.. 
+                            I also strengthened my knowledge in password bruteforcing, backdoor installing and privilege escalation. 
+                            </b>
+							</p>
+							<li><a href="Wireshark.pdf" class="button fit">View my work - PDF</a></li>
+					</section>
+
+				<!-- Two -->
+					<section id="two">
+						<h2>What is packet analysis?</h2>
+						
+						<p><b>Packet capture (PCAP) analysis is the process of obtaining and analyzing individual data packets 
+                            that travel through your network.
+                            PCAP analytics tools allow to consistently record traffic data at multiple OSI layers.
+                            In terms of Security Data packets can serve as an important component of network security monitoring.
+                            PCAP analysis tools help you to automate and visualize traffic patterns, so you can identify security 
+                            threats as soon as they arise. For instance, packet capture 
+                            analysis shows real-time network traffic data that can quickly show a spike in unauthorized activity</b></p> 
+
+                        <h2>Wireshark</h2>
+                        <p><b>Wireshark is a free and open-source packet analyzer. It is used for network troubleshooting, 
+                            analysis, software and communications protocol 
+                            development, and education. Originally named Ethereal, the project was renamed Wireshark in May 2006.
+                            Wireshark "understands" the structure (encapsulation) of different 
+                            networking protocols (see picture below). It can parse and display the fields, along with their meanings as specified by
+                             different networking protocols. Wireshark uses
+                             pcap to capture packets, so it can only capture packets on the types of networks that pcap supports. 
+
+                        </b><p>
+                        <a href="images/download.jpg" class="image fit thumb"><img src="images/13.png" alt="" /></a>
+					</section>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Resources</h2>
+						<p><strong>Wireshark -</strong> https://www.wireshark.org/</p>
+						<p><strong>THM - Learning platform -</strong> https://tryhackme.com/room/h4cked</p>
+						<p><strong>Reverse php-reverse -</strong> https://www.php.net/manual/en/function.array-reverse.php</p>
+						<p><strong>Hydra -</strong> https://www.kali.org/tools/hydra/</p>
+						<p><strong>Python script -</strong>https://docs.python.org/3/library/pty.html</p>
+                        <p><strong>DnsStuff -</strong> https://www.dnsstuff.com/pcap-analysis</p>
+                        <p><strong>VersaCode -</strong> https://www.veracode.com/security/rootkit</p>
+					</section>
+
+				</main>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="actions">
+						<li><a href="index.html" class="button">Back</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
