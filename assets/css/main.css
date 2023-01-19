@@ -159,6 +159,7 @@ input, select, textarea {
 	h3 {
 		font-size: 1.25em;
 		line-height: 1.5em;
+		height: 48px;
 	}
 
 	h4 {
@@ -2241,6 +2242,12 @@ input, select, textarea {
 
 /* Actions */
 
+   ul.back {
+
+	justify-content: center;
+	display: flex;
+   }
+
 	ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2250,6 +2257,7 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		margin-top: 0.5em;
 	}
 
 		ul.actions li {
